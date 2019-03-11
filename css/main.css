@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+color: #ffbd60;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+text-align: center;
+color: white;
+position: relative;
+left: 50%;
+top: 50%;
+transform: translateX(-50%);
+}
+
+.big {
+  font-size: 5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font {
+font-family:'Open Sans Condensed', sans-serif;
+}
