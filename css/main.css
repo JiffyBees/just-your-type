@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  background-color: black;
+  font-family:'Open Sans Condensed', sans-serif;
+  background-color: #e53333;
 }
 
 *, *::before, *::after {
@@ -8,29 +9,19 @@ html {
 }
 
 a {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-color: #ffbd60;
+  color: #ffbd60;
 }
 
 p {
-font-family: 'Roboto', sans-serif;
-text-align: center;
-color: white;
-position: relative;
-left: 50%;
-top: 50%;
-transform: translateX(-50%);
+  text-align: center;
+  color: white;
 }
 
-.big {
-  font-size: 5em;
+.Roboto {
   font-family: 'Roboto', sans-serif;
-}
-
-.font {
-font-family:'Open Sans Condensed', sans-serif;
 }
