@@ -26,38 +26,12 @@ p {
 h1, h2 {
   text-align: center;
   color: white;
-}
-
-.roboto {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.black {
-background-color: black;
-}
-
-.heart {
-  background-color: white;
-  height: 30px;
-  transform: rotate(-45deg);
-  width: 30px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-.heart:before,
-.heart:after {
-  content: "";
-  background-color: white;
-  border-radius: 50%;
-  height: 30px;
-  position: absolute;
-  width: 30px;
-}
-
-.heart:before {
-  top: -15px;
-  left: 0;
+.roboto {
+  font-family: "Roboto Condensed", sans-serif;
 }
