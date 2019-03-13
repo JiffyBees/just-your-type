@@ -18,6 +18,14 @@ h1, h2, p {
   color: white;
 }
 
+h1:hover {
+  color: #fc3333;
+}
+
+h2:hover {
+  color: #33a4fc;
+}
+
 .roboto {
   font-family: "Roboto Condensed", sans-serif;
 }
