@@ -29,6 +29,14 @@ h1, h2, p {
 .grey {
   color: #4c4c4c;
 }
+@media only screen and (min-width: 33em) {
+
+  .big {
+    font-size: 17.0859rem;
+    line-height: 22.4rem;
+  }
+
+}
 
 @media only screen and (min-width: 38em) {
 
