@@ -15,23 +15,22 @@ a:hover {
 
 p {
   text-align: center;
-  margin: 0;
   color: white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 h1, h2 {
   text-align: center;
   color: white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .roboto {
   font-family: "Roboto Condensed", sans-serif;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    background-color: #000;
+  }
+
 }
