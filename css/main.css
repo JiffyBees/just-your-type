@@ -1,16 +1,11 @@
 html {
-  font-family: Futura PT;
+  font-family: "Futura PT";
   background-color: #e53333;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 a {
   text-align: center;
   text-decoration: none;
-  background-color: black;
   color: white;
 }
 
@@ -23,12 +18,15 @@ p {
   color: white;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
-  font-weight: normal;
   color: white;
 }
 
-.Roboto {
-  font-family: Roboto, sans-serif;
+.roboto {
+  font-family: Roboto Condensed, sans-serif;
+}
+
+div {
+  background-color: black;
 }
