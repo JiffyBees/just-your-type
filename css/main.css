@@ -15,7 +15,12 @@ a:hover {
 
 p {
   text-align: center;
+  margin: 0;
   color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1, h2 {
@@ -24,9 +29,35 @@ h1, h2 {
 }
 
 .roboto {
-  font-family: Roboto Condensed, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-div {
-  background-color: black;
+.black {
+background-color: black;
+}
+
+.heart {
+  background-color: white;
+  height: 30px;
+  transform: rotate(-45deg);
+  width: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.heart:before {
+  top: -15px;
+  left: 0;
 }
