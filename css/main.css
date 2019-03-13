@@ -13,18 +13,21 @@ a:hover {
   color: #ffbd60;
 }
 
-p {
-  text-align: center;
-  color: white;
-}
-
-h1, h2 {
+h1, h2, p {
   text-align: center;
   color: white;
 }
 
 .roboto {
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.pink {
+  color: #f27272;
+}
+
+.grey {
+  color: #4c4c4c;
 }
 
 @media only screen and (min-width: 38em) {
